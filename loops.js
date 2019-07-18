@@ -27,12 +27,14 @@ function whileLoop(n) {
 
 
 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
 
 function doWhileLoop(num) {
-  var i = 0;
-  i = i + 1;
   do {
     console.log ("I run once regardless.");
   }
-  while (incrementVariable() < num);
+  while (incrementVariable() < 10);
 }
